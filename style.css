@@ -1,0 +1,45 @@
+/**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+ /* Set the size of the div element that contains the map */
+#map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+}
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 30px;
+    padding: 0;
+  }
+  
+  /* 
+   * Header img * h3
+   */
+  .header img {
+    float: left;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 15px;
+    background: #ffffff;
+  }
+  
+  .header h3 {
+    position: relative;
+    top: 22px;
+    left: 20px;
+    font-size: 17px;
+    color: rgb(106, 106, 106) ;
+  }
+
+  .googleMap {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
