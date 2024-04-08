@@ -33,7 +33,7 @@
 
 ## Problem to solve
 
-As a fellow dog lover, I totally get the struggle of finding dog-friendly restaurants using Google's search services alone. Those scattered online directories like BringFido.com and sifting through pet-friendly tags on Yelp can feel like a bit of a hassle! But fear not! With a handy solution like Doogie, dog owners can breeze through the process and easily sniff out restaurants where they can enjoy a meal with their furry companions. Happy dining! <br>
+As a fellow dog lover, I totally understand the struggle of finding dog-friendly restaurants using Google's search services alone. Those scattered online directories like BringFido.com and sifting through pet-friendly tags on Yelp can feel like a bit of a hassle! But fear not! With a handy solution like Doogie, dog owners can breeze through the process and easily sniff out restaurants where they can enjoy a meal with their furry companions. Happy dining! <br>
 
 <img width="400px" src="assets/problem.png"/>  
 [@Source](https://support.google.com/maps/thread/209225954/no-option-for-dog-friendly-in-features-section?hl=en)
@@ -61,7 +61,7 @@ As a fellow dog lover, I totally get the struggle of finding dog-friendly restau
 - Geolocate the user's current location
 
 ### ⭐️ Don't bombard with information
-- Suggest only top 5 restaurants nearby
+- Suggest only the top 5 restaurants nearby
 
 ---
 ## New Approach 📦
