@@ -58,10 +58,10 @@ As a fellow dog lover, I totally get the struggle of finding dog-friendly restau
 ## Key Feature 📦
 
 ### ⭐️ Geolocator 
-- Geolocate your cullet location
+- Geolocate the user's current location
 
 ### ⭐️ Don't bombard with information
-- Suggest only the top 5 restaurants nearby
+- Suggest only top 5 restaurants nearby
 
 ---
 ## New Approach 📦
