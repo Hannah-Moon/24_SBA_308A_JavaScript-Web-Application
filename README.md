@@ -9,7 +9,6 @@
 <div align="center">
 <img width="700" alt="image" src="assets/doogieReadMeCapture.gif">
 
-[![Hits]()]()                    
 
 </div>
 
@@ -34,9 +33,10 @@
 
 ## Problem to solve
 
-As a fellow dog lover, I totally get the struggle of finding dog-friendly restaurants using Google's search services alone. Those scattered online directories like BringFido.com and sifting through pet-friendly tags on Yelp can feel like a bit of a hassle! But fear not! With a handy solution like Doogie, dog owners can breeze through the process and easily sniff out restaurants where they can enjoy a meal with their furry companions. Happy dining!<img width="500px" src="assets/problem.png"/>  
-[![Hits](Source information: https://support.google.com/maps/thread/209225954/no-option-for-dog-friendly-in-features-section?hl=en)](https://support.google.com/maps/thread/209225954/no-option-for-dog-friendly-in-features-section?hl=en)                    
+As a fellow dog lover, I totally get the struggle of finding dog-friendly restaurants using Google's search services alone. Those scattered online directories like BringFido.com and sifting through pet-friendly tags on Yelp can feel like a bit of a hassle! But fear not! With a handy solution like Doogie, dog owners can breeze through the process and easily sniff out restaurants where they can enjoy a meal with their furry companions. Happy dining! <br>
 
+<img width="500px" src="assets/problem.png"/>                   
+[@Source information](https://support.google.com/maps/thread/209225954/no-option-for-dog-friendly-in-features-section?hl=en)
 
 ---
 ## Tools 🛠️
@@ -59,13 +59,13 @@ As a fellow dog lover, I totally get the struggle of finding dog-friendly restau
 ### ⭐️ Geolocator 
 - Geolocate your cullet location
 
-### ⭐️ Don't bombor with information
-- Suggest only top 5 restaurants near by
+### ⭐️ Don't bombard with information
+- Suggest only the top 5 restaurants nearby
 
 ---
 ## New Approach 📦
 ### Object Oriented Thinking 
-- Gather requirement: The problem to solve
+- Gather requirements: The problem to solve
 - Describe the application: how people are using
 - Identify the main objects: identifying actual classes
 - Describe the interactions: Understand each object and behavior the needs to have and when they interact with other objects
@@ -85,7 +85,7 @@ The design was created in Figma.
 | Question   | Answer                            |
 | -----------| --------------------------------- | 
 | 1. What could you have done differently during the planning stages of your project to make the execution easier? | 
-In the planning phase, I had to dive into the project without fully grasping the new technique, leading to spend excessive amount to take online course to establish a knoledge. Unfortunately, this left insufficient time for coding. As a result, I still need to dedicate time to implementing a few features to align with the design file. | 
+In the planning phase, I had to dive into the project without fully grasping the new technique, leading to spending an excessive amount to take online courses to establish knowledge. Unfortunately, this left insufficient time for coding. As a result, I still need to dedicate time to implementing a few features to align with the design file. | 
 | 2. Were there any requirements that were difficult to implement? What do you think would make them easier to implement in future projects? | 
 Reflecting on my recent experiences, I found that organizing files using modules and imports was an extremely challenging aspect of my work. Despite my efforts, I struggled to streamline the process efficiently. This difficulty stemmed from the intricate interplay between various components and the intricate nature of managing dependencies. |
 | 3. What would you add to, or change about your application if given more time? | 
