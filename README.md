@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-> **First Trial** :  <br>
+> **First Trial** :  https://hannah-moon.github.io/24_SBA_308A_JavaScript-Web-Application/<br>
 > **Rendered Proto** : TBA
 
 
@@ -65,7 +65,7 @@ As a fellow dog lover, I totally get the struggle of finding dog-friendly restau
 
 ---
 ## New Approach 📦
-#### Object Oriented Thinking 
+#### Object-Oriented Thinking 
 - Gather requirements: The problem to solve
 - Describe the application: How people are using
 - Identify the main objects: Identifying actual classes
