@@ -1,6 +1,6 @@
-// --------------- { Reference } -------------- // 
-  
-  const getDog = async () => {
+// Base reference code
+
+const getDog = async () => {
     const response = await fetch("https://dog.ceo/api/breeds/image/random");
     const jsonData = await response.json();
     const url = jsonData.message;
@@ -8,7 +8,7 @@
     dogImg.setAttribute("src", url);
   };
   
-  getAnotherDog = async () => {
+  getAnotherCat = async () => {
     let response = await fetch(
       "https://api.thecatapi.com/v1/images/search?limit=10&breed_ids=beng&api_key=live_cpUvXtjvo8aqXosFx8FMq04zFnSQQTUl87DhQRzfIvQMgKnutC13vYL919bHVEaR"
     );
@@ -27,6 +27,7 @@
   
   const startGame = () => {
     getCat();
+    getDog();
     let pick = prompt("Which is the Cutest of the Two?");
     if (pick.toLowerCase() === "cat") {
       catScore++;

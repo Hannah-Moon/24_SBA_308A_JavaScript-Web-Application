@@ -2,7 +2,7 @@
 // Initialize and add the map
 let map;
 
-async function initMap() {
+export async function initMap() {
   // The location of Uluru
   // const position = { lat: -25.344, lng: 131.031 }; 
   const position = { lat: 40.4412, lng: -79.91779536531955 };

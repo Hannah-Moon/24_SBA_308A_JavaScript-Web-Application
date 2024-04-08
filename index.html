@@ -30,62 +30,31 @@
         <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title" id="restaurantModal">The Best Restrant</h5>
-            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button> -->
+                <h5 class="modal-title" id="restaurantModal">The Best Restrant</h5>
+                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button> -->
             </div>
 
+            <!-- Trigger the modal on click - Anywhere on the map -->
             <div class="modal-body">
             
-            <!------------ { Add modal contents }  -->
-
-        <div class="infobox">
-            <div class="row">
-                <p>Restaurant Detail & Review </p>
-            </div>
-
-        <div class="animalHolder">
-
-            <div class="row">
-
-            <!-- Food -->
-            <div class="col-md-6"> <!-- Each card occupies 6 columns on medium screens and above -->
-
-            <div class="card">
-                <div class="food">
-                    <img src="" class="card-img-top" id="foody" alt="">
+            <!-- Add modal image --> 
+            <div class="imageContainer">
+                <div class="leftImage">
+                    <img src="https://mykoreankitchen.com/wp-content/uploads/2023/05/1.-Korean-BBQ.jpg" class="restautant" id="food" alt="">
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">Food</h5>
+                <div class="rightImage">
+                    <img src="https://assets-global.website-files.com/61605770a2776f05aa1e318c/6537f44347779cb927570c9b_Best%20Dog%20Friendly%20Restaurants%20in%20Highlands%20Ranch%20-%20MAIN.png" class="dog" id="bow" alt=""><br>
+                    <img src="https://cdn.vox-cdn.com/thumbor/pigIGKY6X8HRmMS8Q8eHDkM2mqY=/0x0:4762x3604/1200x900/filters:focal(2001x1422:2761x2182)/cdn.vox-cdn.com/uploads/chorus_image/image/60187643/Wilson_Dog_Menu_62.6.jpg" class="dog" id="wow" alt="">
+                    <!-- <img src="https://blog.qcpetstudies.com/blog/wp-content/uploads/2021/06/Copy-of-Pet-Feature-Image-Template-Medium-Quality-4.jpg" class="dog" id="wow" alt=""> -->
                 </div>
             </div>
 
-            <!-- Dog -->
-            <div class="col-md-6"> <!-- Each card occupies 6 columns on medium screens and above -->
-
-            <div class="card">
-                
-                <div class="dogs">
-                    <img src="" class="card-img-top" id="woof" alt="">
-                </div>
-
-                <div class="card-body">
-                    <h5 class="card-title">Dog</h5>
-                    <p class="card-text">We have floppy ears and furry coats to big expressive eyes, there's no denying that we are the cutest creatures on earth. Not only do we look adorable, cuddled up in your lap or chasing a ball around the yard, but we are playful antics and loving gestures make you smile every day.</p>
-                </div>
-              
-            </div>
-            </div>
-</div>
-        </div>
-
-<br>
-
-
-
-
-
+            <p> Located in: Beautiful Place<br>
+                Address: Best place to live<br>
+                Hours: <span style="color: green;">Open</span> Closes at 9pm<br>
+                menu: beautifulrestaurant.com </p>
 
             </div>
             <div class="modal-footer">
@@ -111,9 +80,9 @@
 
   <script>
     // Auto focus setting 
-    $('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus')
-    })
+    // $('#myModal').on('shown.bs.modal', function () {
+    // $('#myInput').trigger('focus')
+    // })
   </script>
 
   <script type="module" defer src="index.js"></script>
