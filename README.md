@@ -65,10 +65,10 @@ As a fellow dog lover, I totally get the struggle of finding dog-friendly restau
 
 ---
 ## New Approach 📦
-### Object Oriented Thinking 
+#### Object Oriented Thinking 
 - Gather requirements: The problem to solve
-- Describe the application: how people are using
-- Identify the main objects: identifying actual classes
+- Describe the application: How people are using
+- Identify the main objects: Identifying actual classes
 - Describe the interactions: Understand each object and behavior the needs to have and when they interact with other objects
 - Create class diagram: Visual diagram of classes in the applications. 
 
