@@ -60,8 +60,6 @@ As a fellow dog lover, I totally understand the struggle of finding dog-friendly
 ### ⭐️ Geolocator 
 - Geolocate the user's current location
 
-### ⭐️ Don't bombard with information
-- Suggest only the top 5 restaurants nearby
 
 ---
 ## New Approach 📦
