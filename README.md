@@ -75,8 +75,7 @@ As a fellow dog lover, I totally understand the struggle of finding dog-friendly
 ## Design Process 🖌️
 The design was created in Figma.
 
-<img width="700" src="assets/doogieDesign.png"/> 
-
+<a href="https://hannah-moon.github.io/24_SBA_308A_JavaScript-Web-Application/"><img width="700"  src="assets/doogieDesign.png"></img></a>
 
 ---
 ## Reflection 🔎
