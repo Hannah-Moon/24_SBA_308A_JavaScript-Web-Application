@@ -31,7 +31,7 @@ seeMoreBtn.addEventListener('click', function() {
 
 async function callDoggie() {
     try {
-        const response = await fetch("https://api.thecatapi.com/v1/images/search");
+        const response = await fetch("https://api.thecatapi.com/v1/images/search?limit=10&breed_ids=beng&api_key=live_aI5LrRMrx5IyHNmecCqRIZWpO0dkM6Tle5485rhNiKHy7trxF7T3cvMMyjnELPfB");
         const data = await response.json();
         
         let imgUrl1 = data[0].url;
