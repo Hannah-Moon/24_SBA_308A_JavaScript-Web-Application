@@ -15,6 +15,9 @@
     <!-- Import JQuery for API & Ajax -->
     <script src="https://ajsx.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+    <!-- Google MAP API -->
+    <!-- <script defer scr="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdvA9WofIox6gT8UCLUSd_hKFS9GXuCKs&callback&callback=initMap"></script> -->
+
   </head>
 
   <body>
@@ -24,7 +27,7 @@
         <h3>Enhancing Dog Owners' Dining Joy!</h3>
       </div>
 
-    <!-- Trigger the modal on click - Anywhere on the map -->
+    <!-- Add style value to ovoid "0" value input -->
     <div class="googleMap" id="map" style="height: 600px;"></div>
 
 
@@ -45,7 +48,7 @@
             <!-- Add modal image --> 
                 <div class="imageContainer">
                     <div class="leftImage">
-                        <img src="https://mykoreankitchen.com/wp-content/uploads/2023/05/1.-Korean-BBQ.jpg" class="restautant" id="food" alt="">
+                        <img class="food" id="foody" src="https://mykoreankitchen.com/wp-content/uploads/2023/05/1.-Korean-BBQ.jpg" class="restautant" id="food" alt="">
                     </div>
                     <div class="rightImage">
                         <img class="dog" id="bow" alt="" src="https://cdn.vox-cdn.com/thumbor/pigIGKY6X8HRmMS8Q8eHDkM2mqY=/0x0:4762x3604/1200x900/filters:focal(2001x1422:2761x2182)/cdn.vox-cdn.com/uploads/chorus_image/image/60187643/Wilson_Dog_Menu_62.6.jpg"> <!-- {Test Image} : https://cdn.vox-cdn.com/thumbor/pigIGKY6X8HRmMS8Q8eHDkM2mqY=/0x0:4762x3604/1200x900/filters:focal(2001x1422:2761x2182)/cdn.vox-cdn.com/uploads/chorus_image/image/60187643/Wilson_Dog_Menu_62.6.jpg -->
@@ -80,9 +83,6 @@
         </button>
         
 
-
-
-
   </body>
 
   <script>
@@ -100,8 +100,6 @@
   <script>
     (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
       key: "AIzaSyDdvA9WofIox6gT8UCLUSd_hKFS9GXuCKs",
-      // Add other bootstrap parameters as needed, using camel case.
-      // Use the 'v' parameter to indicate the version to load (alpha, beta, weekly, etc.)
     });
   </script>
 
