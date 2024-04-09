@@ -53,7 +53,7 @@
     justify-content: space-around;    
   }
 
-  #food {
+  .food {
     width: 250px; /* Set the desired width */
     max-height: 350px;
     overflow: hidden;

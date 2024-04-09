@@ -17,11 +17,27 @@ export async function initMap() {
     center: new google.maps.LatLng(40.4412027129961, -79.91779536531955),
     mapId: "DEMO_MAP_ID",
     mapTypeId: "roadmap",
-
   });
 
-  // Bouncing logo
-  
+  ////////////////// Try more land marks //////////////  
+  const restaurants = [
+    { label: "C", name: "City Kitchen", lat: 40.45678537856137, lng: -79.91543446990863 },
+    { label: "G", name: "Five Point Artisan Bakeshop", lat: 40.44590707521298, lng: -79.91514997959086 },
+    { label: "D", name: "Point Brugge Cafe", lat: 40.45009080071883, lng: -79.91287533514829 },
+  ];
+
+  restaurants.forEach(({ label, name, lat, lng }) => {
+    const marker = new google.maps.Marker({
+      position: { lat, lng },
+      label,
+      map,
+    });
+  });
+
+
+  ////////////////// Try more land marks //////////////  
+
+  // Bouncing logo  
   let image = 'assets/doogieLogo.png';
   let beachMarker = new google.maps.Marker({
     position: {lat: 40.4412027129961, lng: -79.91779536531955},
