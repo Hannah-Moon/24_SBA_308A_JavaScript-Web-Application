@@ -1,16 +1,49 @@
-// --------------- { Reference } -------------- // 
-  
-function changeImg() {
-    $.ajax({
-        type: "GET",
-        url: "https://api.thedogapi.com/v1/images/search?size=med&mime_types=jpg&format=json&has_breeds=true&order=RANDOM&page=0&limit=1",
-        data: {},
-        success: function (response){
-            let imgurl = (response[0]['url'])
-            $(`#bow`).attr('src',imgurl)
-        }
-    })
+// --------------- { Ajax Trial } -------------- // 
+
+// function changeImg() {
+//     $.ajax({
+//         type: "GET",
+//         url: "https://api.thedogapi.com/v1/images/search?size=med&mime_types=jpg&format=json&has_breeds=true&order=RANDOM&page=0&limit=1",
+//         data: {},
+//         success: function (response){
+//             let imgUrl1 = response[0]['url']
+//             let imgUrl2 = response[1]['url']
+
+//             $('#bow').attr('src', imgUrl1);
+//             $('#wow').attr('src', imgUrl2);
+//         },
+//         error: function() {
+//             console.log("Woops! It is on us! Can you try again? If problem continues, please DM Hannah. :-)");
+//         }
+
+//     });
+// }
+
+// --------------- { Fetch Trial } -------------- // 
+
+// Select the button element by its ID
+const seeMoreBtn = document.getElementById('seeMoreBtn');
+
+// Add event listener to the button
+seeMoreBtn.addEventListener('click', function() {
+    callDoggie();
+});
+
+async function callDoggie() {
+    try {
+        const response = await fetch("https://api.thecatapi.com/v1/images/search");
+        const data = await response.json();
+        
+        let imgUrl1 = data[0].url;
+        let imgUrl2 = data[1].url;
+
+        document.getElementById('bow').src = imgUrl1;
+        document.getElementById('wow').src = imgUrl2;
+    } catch (error) {
+        alert("Oops! Something went wrong! It is on us! Please try again later.");
+    }
 }
+
 
 //    ----------- { Previos Code } 
 
