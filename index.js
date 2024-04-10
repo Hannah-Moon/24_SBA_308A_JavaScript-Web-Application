@@ -25,9 +25,15 @@
 const seeMoreBtn = document.getElementById('seeMoreBtn');
 
 // Add event listener to the button
-seeMoreBtn.addEventListener('click', function() {
+seeMoreBtn.addEventListener('click', async function() {
+    try {
     callDoggie();
     changeFood();
+    // await retrieveDishNames();
+
+} catch (error) {
+    alert("Oops! Something went wrong! It is on us! Please try again later.");
+}
 });
 
 async function callDoggie() {
@@ -64,3 +70,49 @@ async function changeFood() {
 
 
 // --------------- { Name of dishes } -------------- // 
+async function retrieveDishNames() {
+    const titleElement = document.querySelector(".nameOfDishes");
+    const input = /* Assuming you have input field */;
+    const val = input.value.trim();
+
+    if (!val) {
+        alert("Please enter a valid search term!");
+        return;
+    }
+
+    try {
+        const meals = await fetchMealData(val);
+
+        if (!meals) {
+            showAlert();
+            return;
+        }
+
+        // Clear previous results
+        titleElement.innerHTML = '';
+
+        // Show meal names
+        meals.forEach(meal => {
+            const { strMeal } = meal;
+            const mealTitle = document.createElement('p');
+            mealTitle.textContent = strMeal;
+            titleElement.appendChild(mealTitle);
+        });
+    } catch (error) {
+        alert("Oops! Something went wrong while retrieving dish names!");
+    }
+}
+
+async function fetchMealData(val) {
+    const res = await fetch(
+        `https://www.themealdb.com/api/json/v1/1/search.php?s=${val}`
+    );
+
+    const { meals } = await res.json();
+    return meals;
+}
+
+function showAlert() {
+    alert("Meal not found :(");
+}
+
