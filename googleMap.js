@@ -21,9 +21,9 @@ export async function initMap() {
 
   ////////////////// Try more land marks //////////////  
   const restaurants = [
-    { label: "C", name: "City Kitchen", lat: 40.45678537856137, lng: -79.91543446990863 },
-    { label: "G", name: "Five Point Artisan Bakeshop", lat: 40.44590707521298, lng: -79.91514997959086 },
-    { label: "D", name: "Point Brugge Cafe", lat: 40.45009080071883, lng: -79.91287533514829 },
+    { label: "A", name: "City Kitchen", lat: 40.45678537856137, lng: -79.91543446990863 },
+    { label: "B", name: "Five Point Artisan Bakeshop", lat: 40.44590707521298, lng: -79.91514997959086 },
+    { label: "C", name: "Point Brugge Cafe", lat: 40.45009080071883, lng: -79.91287533514829 },
   ];
 
   restaurants.forEach(({ label, name, lat, lng }) => {
