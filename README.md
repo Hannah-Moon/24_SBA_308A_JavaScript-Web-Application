@@ -19,8 +19,7 @@
 
 ## Live Demo
 
-> **First Trial** :  https://hannah-moon.github.io/24_SBA_308A_JavaScript-Web-Application/<br>
-> **Rendered Proto** : TBA
+> **Please click this link** :  https://hannah-moon.github.io/24_SBA_308A_JavaScript-Web-Application/<br>
 
 
 ## Designer and Developer
@@ -29,6 +28,7 @@
 | :------------------------------------------------------------------------------: |  
 |   <img width="160px" src="assets/Hannah.jpeg"/>    |  
 |   [@Hannah-Moon](https://github.com/Hannah-Moon)   |   
+
 
 
 ## Problem to solve
@@ -54,16 +54,20 @@ As a fellow dog lover, I totally understand the struggle of finding dog-friendly
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white)
 
+### APIs
+> **Google Map API** : https://developers.google.com/maps <br>
+> **The Meal DB** : https://developers.google.com/maps <br>
+
+
 ---
 ## Key Feature 📦
 
 ### ⭐️ Geolocator 
 - Geolocate the user's current location
 
-
 ---
 ## New Approach 📦
-#### Object-Oriented Thinking 
+##### In the planning process, I utilized the Object-Oriented Design Method to create a structured flowchart.
 - Gather requirements: The problem to solve
 - Describe the application: How people are using
 - Identify the main objects: Identifying actual classes
