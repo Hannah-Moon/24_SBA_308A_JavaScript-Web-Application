@@ -31,6 +31,7 @@
 |   [@Hannah-Moon](https://github.com/Hannah-Moon)   |   
 
 
+
 ## Problem to solve
 
 As a fellow dog lover, I totally understand the struggle of finding dog-friendly restaurants using Google's search services alone. Those scattered online directories like BringFido.com and sifting through pet-friendly tags on Yelp can feel like a bit of a hassle! But fear not! With a handy solution like Doogie, dog owners can breeze through the process and easily sniff out restaurants where they can enjoy a meal with their furry companions. Happy dining! <br>
@@ -54,12 +55,16 @@ As a fellow dog lover, I totally understand the struggle of finding dog-friendly
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white)
 
+### APIs
+> **Google Map API** : https://developers.google.com/maps <br>
+> **The Meal DB** : https://developers.google.com/maps <br>
+
+
 ---
 ## Key Feature 📦
 
 ### ⭐️ Geolocator 
 - Geolocate the user's current location
-
 
 ---
 ## New Approach 📦
