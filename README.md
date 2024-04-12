@@ -67,7 +67,7 @@ As a fellow dog lover, I totally understand the struggle of finding dog-friendly
 
 ---
 ## New Approach 📦
-#### Object-Oriented Thinking 
+##### In the planning process, I utilized the Object-Oriented Design Method to create a structured flowchart.
 - Gather requirements: The problem to solve
 - Describe the application: How people are using
 - Identify the main objects: Identifying actual classes
