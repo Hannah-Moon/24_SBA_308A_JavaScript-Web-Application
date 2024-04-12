@@ -19,8 +19,7 @@
 
 ## Live Demo
 
-> **First Trial** :  https://hannah-moon.github.io/24_SBA_308A_JavaScript-Web-Application/<br>
-> **Rendered Proto** : TBA
+> **Please click this link** :  https://hannah-moon.github.io/24_SBA_308A_JavaScript-Web-Application/<br>
 
 
 ## Designer and Developer
